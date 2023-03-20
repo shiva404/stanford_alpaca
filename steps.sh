@@ -1,3 +1,8 @@
+#!/bin/bash
+
+conda create -n stanford_alpaca python=3.10
+conda activate stanford_alpaca
 pip install -r requirements.txt
 
-train.py --model_name_or_path facebook/opt-125m --data_path /Users/macbook/code/stanford_alpaca/alpaca_data.json --output_dir /Users/macbook/code/stanford_alpaca/data/output
+HOME="/home/shiv/git/stanford_alpaca"
+conda active stanford_alpaca
