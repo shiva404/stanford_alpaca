@@ -9,10 +9,11 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) 
 
 This is the repo for the Stanford Alpaca project, which aims to build and share an instruction-following LLaMA model. The repo contains:
-- A [**web demo**](https://crfm.stanford.edu/alpaca/) to interact with our Alpaca model
 - The [52K data](#data-release) used for fine-tuning the model
 - The code for [generating the data](#data-generation-process)
 - The code for [fine-tuning the model](#fine-tuning)
+
+Note: We thank the community for feedback on Stanford-Alpaca and supporting our research. Our live demo is suspended until further notice.
 
 ## Overview
 
